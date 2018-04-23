@@ -5,7 +5,9 @@ import SearchBar from './components/search_bar';
 const API_KEY = "AIzaSyBIY-ihd0-6uto9hYThxxCXvpHVzQOGyEs";
 
 const App = () => {
-	return <div>Hola</div>;
+	return <div>
+		<SearchBar />
+	</div>;
 }
 
 class App extends Component{
